@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#173f35">
+  <title>Tenis | Asistente de clases</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="chat-container">
+    <header class="chat-header">
+      <div class="logo" aria-hidden="true">T</div>
+      <div>
+        <h1>Asistente de tenis</h1>
+        <p><span class="status-dot"></span> Información sobre las clases</p>
+      </div>
+    </header>
+
+    <section class="chat-body" aria-label="Conversación">
+      <div class="welcome">
+        <span class="welcome-icon" aria-hidden="true">🎾</span>
+        <h2>¡Hola! Bienvenido</h2>
+        <p>Estoy acá para ayudarte a organizar tus clases de tenis.</p>
+      </div>
+
+      <div id="messages" class="messages" aria-live="polite"></div>
+      <div id="options" class="options" aria-label="Opciones disponibles"></div>
+    </section>
+
+    <footer class="chat-footer">
+      <p>Asistente de clases de tenis</p>
+    </footer>
+  </main>
+</body>
+</html>
